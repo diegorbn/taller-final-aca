@@ -1,0 +1,4 @@
+fastapi
+uvicorn[standard]
+mkdocs
+mkdocs-material

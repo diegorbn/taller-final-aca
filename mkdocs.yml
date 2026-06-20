@@ -1,0 +1,25 @@
+site_name: API de Cafetería Intergaláctica
+site_description: Documentación de una API de ejemplo desarrollada con FastAPI
+site_author: Diego Urbina
+
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - content.tabs.link
+
+nav:
+  - Inicio: index.md
+  - Instalación: installation.md
+  - Endpoints: endpoints.md
+  - Ejemplos: examples.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
